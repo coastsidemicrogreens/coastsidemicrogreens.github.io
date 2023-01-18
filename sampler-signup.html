@@ -1,0 +1,46 @@
+<h2><img id="logo" src="img/logo3.png" class="rounded float-left" style="width: 10%;" alt="logo">Coastside Microgreens Sampler</h2>
+
+<form action="https://getform.io/f/9b67fb03-bddf-4cfd-90f8-0e2b64ad2e4b" method="POST">
+    
+      <label for="name">Full name:</label><input type="text" name="name" id="name" style="width: 250px;"><br><br>
+
+    
+      <label for="email">Email:</label><input type="email" name="email" id="email" style="width: 250px;"><br><br>
+
+    
+      <label for="delivery_address">Delivery address:</label><input type="text" name="delivery_address" id="delivery_address" style="width: 250px;"><br><br>
+
+    
+      <label for="delivery_city">City / zipcode:</label><input type="text" name="delivery_city" id="delivery_city" style="width: 250px;"><br><br>
+
+    
+    <p>Please include the following microgreen types in my sampler:<br>
+    <input type="checkbox" name="sample_types" id="sample_kale" value="kale" checked>
+    <label for="sample_kale">Micro kale:</label><br>
+        <input type="checkbox" name="sample_types" id="sample_turnip" value="turnip" checked>
+    <label for="sample_turnip">Micro turnip:</label><br>
+        <input type="checkbox" name="sample_types" id="sample_broccoli" value="broccoli" checked>
+    <label for="sample_broccoli">Micro broccoli:</label><br>
+        <input type="checkbox" name="sample_types" id="sample_sunflower" value="sunflower" checked>
+    <label for="sample_sunflower">Micro sunflower:</label><br>
+    </p>
+
+
+    <p>Interested in subscription?<br>
+    <input type="radio" name="subscription" id="subscription_none" value="none" checked>
+    <label for="subscription_none">Not interested:</label><br>
+    <input type="radio" name="subscription" id="subscription_weekly" value="weekly">
+    <label for="subscription_weekly">Weekly:</label><br>
+    <input type="radio" name="subscription" id="subscription_biweekly" value="biweekly">
+    <label for="subscription_biweekly">Biweekly:</label><br>
+    <input type="radio" name="subscription" id="subscription_monthly" value="monthly">
+    <label for="subscription_monthly">Monthly:</label><br>
+    </p>
+
+
+    <!-- add hidden Honeypot input to prevent spams -->
+    <input type="hidden" name="_gotcha" style="display:none !important">
+
+
+    <button type="submit">Send</button>
+</form>
